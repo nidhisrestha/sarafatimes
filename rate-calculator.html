@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" type="image/x-icon" href="images/logonew.png">
+<title>Sarafa Times</title>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+<!--all-->
+<link rel="stylesheet" type="text/css" href="css/default.css" media="all" />
+<!--all-->
+<!--animate-->
+<link rel="stylesheet" href="css/animate.css">
+<!--animate-->
+<!--owlcarousel-Best Of Our Store and Popular Brands-->
+<link rel='stylesheet' href='css/owl.theme.default.min.css'>
+<link rel="stylesheet" href="js/carousel/owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="js/carousel/owlcarousel/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/customstyle.css">
+	<style>
+	p {
+  margin: 0px;color:red;font-weight: bold;
+}
+		.specific-module {
+   /* background: #dbc6c6;*/
+		}		
+		  @media print {
+        body {
+          -webkit-print-color-adjust: exact;
+        }
+      }
+	</style>
+<!--owlcarousel-Best Of Our Store and Popular Brands-->
+<!--searchbar-Top Header-->
+<script src="js/searchbar/js/modernizr.custom.js"></script>
+<!--searchbar-->
+<!--library js-->
+<script src="js/jquery.js"></script>
+<!--library js-->
+<!-- iosSlider plugin Main Slider -->
+<script type="text/javascript" src = "js/slider/jquery.easing-1.3.js"></script>
+<script src = "js/slider/jquery.iosslider.js"></script>
+<!-- iosSlider plugin -->
+<!--owlcarousel-Best Of Our Store and Popular Brands -->
+<script src="js/carousel/owlcarousel/owl.carousel.js"></script>
+<script src = "js/owl-carousel.js"></script>
+<!--owlcarousel-->
+<!--scrolltop-->
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+<script src="https://use.fontawesome.com/0e60f134be.js"></script>
+<!--scrolltop-->
+</head>
+<body>
+<!--modal popup-->
+
+
+
+<!--modal popup-->
+<!--sidebar
+<div id="push_sidebar">
+  <div class="right-logo"><a href="index.html"><h2>Sarafa Times</h2></a></div>
+  <ul class="list-unstyled">
+	<li class="active"><a href="rate-calculator.html">Rate-Calcuator</a></li>
+  </ul>
+  
+</div>
+sidebar-->
+<!--nav-->
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="navbar-header"> 
+  <a class="navbar-brand" href="index.html"> <img class="img-responsive" alt="" title="" src="images/logonew.png"> </a> </div>
+  <span class="nav_trigger"><i class="fa fa-navicon"></i></span>
+  <ul class="navbar-nav2">
+    <li class="search-div">
+      <div id="sb-search" class="sb-search">
+        <form>
+          <input class="sb-search-input"  placeholder="Search" type="text" value="" name="search" id="search">
+          <input class="sb-search-submit" type="submit" value="">
+        </form>
+      </div>
+    </li>
+    <li class="hidden"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="round">5</span></a> </li>
+  </ul>
+</nav>
+<!--nav-->
+<div id="wrapper" style="color:black;">
+  <!--page heading-->
+  <section>
+    <!--<div class="inner-bg1">-->
+      <!--<div class="inner-head wow fadeInDown">
+        <h3>About Us</h3>
+      </div>-->
+    <!--</div>-->
+  </section>
+  <!--About Us--->
+  <section class="content-section specific-module">
+    <div class="col-lg-8  div-center div-center2">
+      <div class="specific-content">
+        <h1 class="title-h wow fadeInDown"><span>CURRENT RATE</span></h1>
+        <div class="wow fadeIn text-style">
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container">               
+
+		<div class="row">
+			
+			<div class="col-md-6">
+				
+				<table class="" style="border-collapse: separate;  border-spacing: 8px 10px;"  >
+				<!--	<tr>
+						<td>Asso.</td>
+						<td>
+							<select name="associat_name" id="associat_name" class="form-control">
+								<!--<option value="">CHOOSE ASSOCIATION</option>
+								<option value="Patna">Patna&emsp;💶</option>
+								<option value="Delhi">Delhi&emsp;💷</option>
+								<option value="Chennai">Chennai&emsp;💵</option>
+							</select>
+						</td>
+						
+					</tr>-->
+					<tr>
+						<td>RTGSAU995/Gm</td>
+						<td><input type="number" name="rate"id="rate" class="form-control"/></td>
+						<!--<td><input type="button" class="btn btn-info" name="cal_btn" id="cal_btn" onclick="get_rate()" value="Get Gold Rate"/></td>-->
+					</tr>
+					<tr>
+						<td>RTGSAG999/Gm</td>
+						<td><input type="number" name="silver_rate"id="silver_rate" class="form-control"/></td>
+						
+					</tr>
+				</table>
+						<!--<div id="asso_title" style="font-size:10px;"><span id="org_nm_p"></span></div>-->
+						
+			</div>
+			
+			<div class="col-md-6">			
+
+				<table class="table" style="background-color:#FFD161; margin:font-size:11px;">
+					
+					<tr>
+					<td style="border:none; padding-top:0; padding-bottom:0;">
+					<table class="table" style="background-color:#FFD161;margin-bottom:0;">
+						<tr><td colspan="5" style="padding:0 !important;"><img src="images/stratelogotop.jpg" alt="" style="width:100%"/></tr>
+					<tr><td colspan="5"style="padding: 14px 30px;"><p><span id=date_time></span><p></td>
+					</tr>
+                    <tr >
+						<td><p>Gold 24KS</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_24"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_24_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Gold 22K916</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_22k"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_22k_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Gold 20K833</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_20k"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_20k_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Gold 18K750</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_18k"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_18k_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Gold 14K583</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_14k"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_14k_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Gold 9K375</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="gold_9k"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="gold_9k_pr"></p></td>
+					</tr>
+					<tr>
+						<td><p>Silver</p></td>
+						<td><p>SALE</p></td>
+						<td><p id="sil_24"></p></td>
+						<td><p>EXC</p></td>
+						<td><p id="sil_24_pr"></p></td>
+					</tr>
+					<tr><td colspan="5" style="padding: 14px 30px;border-bottom: 1px solid #ddd;"><p>Rate Rs/Gm,LBR,GST Extra<p></td></tr>
+						<!--<td style="padding: 14px 30px;"><p>FINE</p></td>
+						<td style="padding: 14px 30px;"><p id="gold_cp"></p></td>
+						<td style="padding: 14px 30px;"><p>WHITE</p></td>
+						<td style="padding: 14px 30px;"><p id="sil_cp"></p></td>-->
+						<tr><td style="padding: 14px 30px;"><p><a  class="btn btn-danger btn-xs" id="printer"> <i class="fa fa-print fa-fw"></i>Print</a></p></td>
+					    <td colspan="5" style="padding: 0 1px 0 6px !important;border: none;"><img src="images/.png" alt="" style="width:50%"/></td></tr>
+				</table>
+					</td>
+					</tr>
+				</table>
+			</div>		
+		</div>
+    </div>
+    <div class="clearfix"></div>
+  </section>
+  <!--two images-->
+ <!-- <div class="clearfix"></div><div class="side_socialmedia fade_anim">
+<a href="https://www.facebook.com/sarafatimes" target="_blank" class="icoFacebook"><img src="http://patss.in/wp-content/uploads/2020/10/ic_fb.jpg"></a>
+<a href="https://www.twitter.com/sarafatimes" target="_blank" class="icoTwitter"><img src="http://patss.in/wp-content/uploads/2020/10/ic_tw.jpg"></a>
+<a href="https://www.youtube.com/sarafatimes" target="_blank" class="icoGoogle"><img src="http://patss.in/wp-content/uploads/2020/10/ic_yt.jpg"></a>
+</div>-->
+   <!--footer
+ <div class="footer-css">
+    
+    <div class="copyright">
+      <div class="footer-in">
+        <div class="pull-left">© 2024  <a href="index.html">Sarafa Times</a></div>
+        <div class="pull-right">Crafted By <a href="#" target="_blank">Raysha Tech</a></div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+ <!--themes js-->
+<script src="js/ajax.js"></script>
+<script src="js/formValidation.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--themes js-->
+<!--searchbar-Top Header-->
+<script src="js/classie.js"></script>
+<script src="js/uisearch.js"></script>
+<!--searchbar-->
+<!--all script-->
+<script src = "js/all.js"></script>
+<!--all script-->
+<!--wow animate-->
+<script src="js/wow.min.js"></script>
+<script src="js/animate1.js"></script>
+	<script>
+		
+		$(document).ready(function(){
+     $("#associat_name,#rate,#silver_rate").change(function(){
+      var associat_name= $("#associat_name").val();
+	//	  $('#org_nm_p').html(associat_name);
+		 
+			var rate = $("#rate").val();
+		 	var sil_rate = $("#silver_rate").val();
+            if(rate!=""){
+		    var gold_24 = Math.round(rate*(97.09/100)*(103/100));
+			$("#gold_24").text(gold_24);
+			var gold_24_pr = Math.round(rate*(97.09/100));
+			$("#gold_24_pr").text(gold_24_pr);
+			var gold_22k = Math.round(rate*(100.5/100)*(97.09/100)*(93/100));
+			$("#gold_22k").text(gold_22k);
+			var gold_22k_pr = Math.round(rate*(100.5/100)*(97.09/100)*(92/100));
+			$("#gold_22k_pr").text(gold_22k_pr);
+			var gold_20k = Math.round(rate*(100.5/100)*(97.09/100)*(89/100));
+			$("#gold_20k").text(gold_20k);
+			var gold_20k_pr = Math.round(rate*(100.5/100)*(97.09/100)*(83/100));
+			$("#gold_20k_pr").text(gold_20k_pr);
+			var gold_18k = Math.round(rate*(100.5/100)*(97.09/100)*(80/100));
+			$("#gold_18k").text(gold_18k);
+			var gold_18k_pr = Math.round(rate*(100.5/100)*(97.09/100)*(75/100));
+			$("#gold_18k_pr").text(gold_18k_pr);
+			var gold_14k = Math.round(rate*(100.5/100)*(97.09/100)*(64/100));
+			$("#gold_14k").text(gold_14k);
+			var gold_14k_pr = Math.round(rate*(100.5/100)*(97.09/100)*(58/100));
+			$("#gold_14k_pr").text(gold_14k_pr);
+			var gold_9k = Math.round(rate*(100.5/100)*(97.09/100)*(43/100));
+			$("#gold_9k").text(gold_9k);
+			var gold_9k_pr = Math.round(rate*(100.5/100)*(97.09/100)*(37/100));
+			$("#gold_9k_pr").text(gold_9k_pr);
+			var gold_cp = Math.round(rate*(100.5/100)*(97.09/100));
+			$("#gold_cp").text(gold_cp);
+			}else{
+			$("#gold_24").text('');
+			$("#gold_24_pr").text('');
+			$("#gold_22k").text('');
+			$("#gold_22k_pr").text('');
+			$("#gold_20k").text('');
+			$("#gold_20k_pr").text('');
+			$("#gold_18k").text('');
+			$("#gold_18k_pr").text('');
+			$("#gold_14k").text('');
+			$("#gold_14k_pr").text('');
+			$("#gold_9k").text('');
+			$("#gold_9k_pr").text('');
+			$("#gold_cp").text('');
+			}
+			
+		 
+		  if(sil_rate!=""){
+		 var org_nm = $("#org_nm").val();
+			$("#org_nm_p").text(org_nm);
+          var sil_24 = Math.round(sil_rate*(97.09/100)*(103/100));
+			$("#sil_24").text(sil_24);
+			var sil_24_pr = Math.round(sil_24*(50/100));
+			$("#sil_24_pr").text(sil_24_pr);
+			var sil_cp = Math.round(sil_rate);
+			$("#sil_cp").text(sil_cp);
+		  }else{
+			  $("#org_nm_p").text('');
+			$("#sil_24").text('');
+			$("#sil_24_pr").text('');
+			$("#sil_cp").text('');
+		  }
+      
+     });
+
+});
+	
+		$(document).ready(function() {
+
+      var today = new Date();
+      var a = today.getDate();
+      var b = today.getUTCMonth() + 1;
+      var c = today.getFullYear();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      var l = today.getHours() >= 12 ? "PM" : "AM";
+      // add a zero in front of numbers<10
+      h = checkTime(h);
+      m = checkTime(m);
+      s = checkTime(s);
+
+
+      document.getElementById('date_time').innerHTML = "DATE:" + a + "-" + b + "-" + c + " TIME:" + h + ":" + m + ":" + s + " " + l;
+      //document.getElementById('txt').innerHTML=b;
+      t = setTimeout(function() {
+         startTime()
+      }, 500);
+
+      function startTime() {
+         var today = new Date();
+         var a = today.getDate();
+         var b = today.getUTCMonth() + 1;
+         var c = today.getFullYear();
+         var h = today.getHours();
+         var m = today.getMinutes();
+         var s = today.getSeconds();
+         var l = today.getHours() >= 12 ? "PM" : "AM";
+         // add a zero in front of numbers<10
+         h = checkTime(h);
+         m = checkTime(m);
+         s = checkTime(s);
+
+
+         document.getElementById('date_time').innerHTML = "DATE: " + a + "-" + b + "-" + c + " TIME: " + h + ":" + m + ":" + s + " " + l;
+         //document.getElementById('txt').innerHTML=b;
+         t = setTimeout(function() {
+            startTime()
+         }, 500);
+      }
+
+      function checkTime(i) {
+         if (i < 10) {
+            i = "0" + i;
+         }
+         return i;
+      }
+
+   });
+	</script>
+	 <script>
+    var _print = window.print;
+    window.print = function() {
+      setColors('body *');
+      setIconColors('body .fa');
+      _print();
+    }
+    $("#printer").click(function () {
+      window.print();
+    });
+		     function setIconColors(icons) {
+      var css = '';
+      $(icons).each(function () {
+        var path, node = $(this);
+        while (node.length) {
+            var realNode = node[0], name = realNode.localName;
+            if (!name) break;
+            name = name.toLowerCase();
+
+            var parent = node.parent();
+
+            var sameTagSiblings = parent.children(name);
+            if (sameTagSiblings.length > 1) { 
+                allSiblings = parent.children();
+                var index = allSiblings.index(realNode) + 1;
+                if (index > 1) {
+                    name += ':nth-child(' + index + ')';
+                }
+            }
+
+            path = name + (path ? '>' + path : '');
+            node = parent;
+        }
+        css += path + ':before { color: ' + $(this).css('color') + ' !important; }';
+      });
+      $('head').append('<style id="print-icons-style">' + css + '</style>');
+    }
+		  function setColors(selector) {
+      var elements = $(selector);
+      for (var i = 0; i < elements.length; i++) {
+        var eltBackground = $(elements[i]).css('background-color');
+        var eltColor = $(elements[i]).css('color');
+
+        var elementStyle = elements[i].style;
+        if (eltBackground) {
+          elementStyle.oldBackgroundColor = {
+            value: elementStyle.backgroundColor,
+            importance: elementStyle.getPropertyPriority('background-color'),
+          };
+          elementStyle.setProperty('background-color', eltBackground, 'important');
+        }
+        if (eltColor) {
+          elementStyle.oldColor = {
+            value: elementStyle.color,
+            importance: elementStyle.getPropertyPriority('color'),
+          };
+          elementStyle.setProperty('color', eltColor, 'important');
+        }
+      }
+    }
+  </script>
+</body>
+</html>
